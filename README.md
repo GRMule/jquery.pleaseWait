@@ -35,3 +35,6 @@ Notes
 * Be sure to update the width and height if you are replacing the image. The width and height must be to same as the measurement of your replacement image.
 
 * If you are supplying the URL of an image, change imageType to any value other than "encoded".
+
+
+Key words: please wait, loading animation, loading spinner, ajax spinner, ajax loader, ajax animation, gif alternative
