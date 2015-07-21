@@ -12,7 +12,7 @@ Defaults
   speed:8,
   increment: 2,
   image:{base64 encoded image},
-  image_type: 'encoded',
+  imageType: 'encoded',
   height:65,
   width:65
 };
@@ -29,3 +29,9 @@ Demo
 --
 
 http://jsfiddle.net/s7t0saws/
+
+Notes
+--
+* Be sure to update the width and height if you are replacing the image. The width and height must be to same as the measurement of your replacement image.
+
+* If you are supplying the URL of an image, change imageType to any value other than "encoded".
