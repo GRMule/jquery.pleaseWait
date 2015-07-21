@@ -11,14 +11,16 @@ Defaults:
   crazy:false,
   speed:8,
   increment: 2,
-	image:{base64 encoded image},
-	image_type: 'encoded',
-	height:65,
-	width:65
+  image:{base64 encoded image},
+  image_type: 'encoded',
+  height:65,
+  width:65
 };
 ````
 
 Use:
 
+````
 $('#test').pleaseWait(); // starts the waiter
 $('#test').pleaseWait('stop'); // stops the waiter
+````
