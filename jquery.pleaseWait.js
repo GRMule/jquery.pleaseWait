@@ -41,7 +41,7 @@
 				});
 				$(document.body).append(self.pleaseWait.overlay);
 
-				if (self.pleaseWait.opt.image_type != 'encoded' && image.length > 0) {
+				if (self.pleaseWait.opt.imageType != 'encoded' && self.pleaseWait.opt.image.length > 0) {
 					self.pleaseWait.cog.src = image;
 				} else {
 					self.pleaseWait.cog.src = 'data:image/png;base64,'+self.pleaseWait.opt.image;
@@ -169,7 +169,7 @@
     	speed:8,
         increment: 2,
 		image:'iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABK1JREFUeNrsXFtIFFEYPqsbZl7S1G5oqETgS2SghUUXIughCiuCHnrrAhFUD0EUUj1E9BBFVBC9RAWBD92IiF4iykCLlCCKkBLU0i5meU/b7f/b79DxtLo7t53dnf3hw5lxZ+bMN//9nF1fMBgUsRSfzxf2eKzHoUqaS/c9xM8NnBQuS5pIifDbqdKRxE2Vd1oT8ghbPKcJkHTCDsIBQhbhDeF1IpJgRRN+E9YQckHIiUTVBKvmcBxksFQTar1IAqv/dWX/IGGK10hgOUXoxXYpYbcXSegFEVL2EWZ7jQQBk5CRgSNFnRdJYOd4RNmvhaP0FAksTYSHyv7RhCOBU+FoMYkcI4xiuzJRQuZEmlBi8npthEvKfh18RHwLFzVaYbOc8AIPUGDikvzQLwkfgcNhCqhFhF1AtToON+CTA4Oac6JTr2hCP+Eyjo0aIILN4AK2PxOq+Py/N4zDpopOQj7e3Grtc+2Ec4RHBq5dj7B5hvAznktpnQQpVUiBy7XPPyOcJbxPpn7CRCRIp7mJsAeVopQA4SbhPMwlqUmQkk3YC0LUaMIqfhGEBOL9Qa2SIIVNYz+hRjvOpnGa0OgFEqSsQDdJzyW2c3fJKyTIULqVsBPm8hRaIrxEgpQCOM4rCKOeJCFhIkBUJHhZUiSkSAAJXvUDOgk8hbbM5PlcMl9LdBJ4Gq6IMN/k+Z3JYA6pqXmYA2vCdJPn9xG6k8EnpBxjKkSmSEjM2sGOcepjtIOEWYQvAt2lGJKQjnsG3SQhk7CesEqEOsuPY0xCERw7t/mG3SBhJWGj+De7NCBCkzUDMSIhSwvrI4QfhDEzJBhduLVAhDpKJWEyx0yQEQsJADLZyyDMxP37hNL4tdMxFqLGqNSO8+wSd5ubXXCMTECO+H+uMwAiBuwyB2Z4HWGtGL8WidXvgQhNxY+5HB38MI0M7fgYTGTECglLCZvF+IkXlgbCbTgkR8KnyUg1FWPVTXwYYx0zQkIpYRv+qtJGuIG/0Ug5zKXfIgl5UO1oJoR9MI9srTgMKv4iGImEGSK0KFO9QA/hlgitRIlWsuBA+aItQMAgCZlwwDkYwweD1TFrxTTt+BDhuz4OvZTmmz3BNjN/X4RWnzQZVM0l8CGsmmVqQmNg9Us6CJAvJ9tg9OhFEvdLOd4fbXTIgi+4B1KMCi/f26Ds3yV0SXPAfbiJU4H/twpt5koZSxkIYBkkvDWTIUKr/DAHEUkTZOJz1SQBPHq1VdcqCTApHUrMZ9XON3mdIUlAOPGbCW2TeG9+uwWKOTVajIijcK5ycWgx1DxgZ+FmZ3uNfcBiZb/ZpgzykxIZ+B5z7M497CShUvHG/PCvbEyRO7SqNSMeSeBwtFDZbzSav0eQHsWz+4T5JYaOklCjXKsLDtFuaVciw3QlfMYFCfMAmZk1OFQ2DGoRq1jY1Ci2SoIPNYYU/h7UNwfrp04tZBbGAwkVyO0FMrPnDvcRRhEtpMwV1r7MZhsJUlrCla0OSLdyH7/yElwj4Y4IrYPusTEkRqzI4STZR7wjfLXcozCTaVn5hqzB2sH2XoXTyVLCit/sG3VU32P9cwYu/X5CrlIRch+w183pwD8CDAC/RBaBiIoXIgAAAABJRU5ErkJggg==',
-		image_type: 'encoded',
+		imageType: 'encoded',
 		height:65,
 		width:65
 	};
